@@ -1,4 +1,10 @@
-      int n = cardPoints.length;
+//this is a solution made by washnig 
+//from his leetcode repo 
+//https://github.com/wsahnig/leetcodeShuaTi/blob/master/1423.maximum-points-you-can-obtain-from-cards.java
+
+class Solution {
+    public int maxScore(int[] cardPoints, int k) {
+            int n = cardPoints.length;
         //int sum = Arrays.stream(cardPoints).sum();
         int sum = 0;
         int curMin = 0;
@@ -17,3 +23,4 @@
         return sum-min;
     }
 }
+ 
